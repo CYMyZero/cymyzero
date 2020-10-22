@@ -1062,3 +1062,4 @@ while :; do
 
 
 done
+v2ray qr
