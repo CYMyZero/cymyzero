@@ -934,7 +934,7 @@ error() {
 
 pause() {
 
-	\n
+	echo -e "\n"
 	echo
 }
 do_service() {
