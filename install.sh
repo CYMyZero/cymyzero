@@ -677,9 +677,9 @@ install_info() {
 		echo -e "$yellow 是否配置 Shadowsocks = ${cyan}未配置${none}"
 	fi
 	echo
-	echo "---------- END -------------"
+	echo "---------- END1 -------------"
+	echo 
 	echo `v2ray qr`
-	echo
 	pause
 	echo
 }
