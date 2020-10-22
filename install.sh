@@ -1,11 +1,11 @@
 #!/bin/bash
 
-red='\e[91m'
-green='\e[92m'
-yellow='\e[93m'
-magenta='\e[95m'
-cyan='\e[96m'
-none='\e[0m'
+red=''
+green=''
+yellow=''
+magenta=''
+cyan=''
+none=''
 
 # Root
 [[ $(id -u) != 0 ]] && echo -e "\n 哎呀……请使用 ${red}root ${none}用户运行 ${yellow}~(^_^) ${none}\n" && exit 1
