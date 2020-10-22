@@ -678,6 +678,7 @@ install_info() {
 	fi
 	echo
 	echo "---------- END -------------"
+	echo `v2ray qr`
 	echo
 	pause
 	echo
@@ -1062,5 +1063,3 @@ while :; do
 
 
 done
-
-v2ray qr
